@@ -470,6 +470,9 @@
 .container-footer {
   height: 493px;
   width: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   background-color: #dbdbdb;
 }
 
@@ -484,8 +487,9 @@
 }
 
 .subcont-footer {
-  height: 493px;
+  height: 327px;
   width: 375px;
+  margin-bottom: 113px;
   background-color: #dbdbdb;
 }
 
@@ -508,7 +512,7 @@
   width: auto;
   display: flex;
   flex-direction: column;
-  margin: 53px 0 85px 20px;
+  margin: 0px 0 85px 20px;
 }
 
 @media (min-width: 376px) {
