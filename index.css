@@ -14,7 +14,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 18px 20px 94px 17px;
-  background-color: rgb(235, 164, 164);
+  background-color: rgb(255, 255, 255);
 }
 
 @media (min-width: 769px) {
@@ -28,9 +28,10 @@
 .logo {
   width: 150px;
   height: 60px;
+  margin: 0px;
 }
 
-@media (min-width: 376px) {
+@media (min-width: 769px) {
   .logo {
     height: 70px;
     width: 180px;
@@ -86,7 +87,7 @@
   flex-direction: column;
   justify-content: flex-end;
   /*  justify-content: space-between; */
-  background-color: rgb(223, 126, 126);
+  background-color: rgb(255, 255, 255);
 }
 
 @media (min-width: 769px) {
@@ -108,7 +109,7 @@
   text-align: center;
   font-weight: 700;
   line-height: 48px;
-  margin: 0px auto 55px auto;
+  margin: 0px auto 80px auto;
 }
 
 @media (min-width: 769px) {
@@ -224,7 +225,7 @@
   font-family: "Roboto";
   font-size: 16px;
   font-weight: 400px;
-  text-align: left;
+  text-align: center;
   margin: 0px 32px 0px 32px;
   line-height: 18px;
   color: #ffff;
@@ -282,9 +283,8 @@
   font-size: 32px;
   font-weight: 700px;
   text-align: center;
-  margin: 70px 52px 48px 52px;
+  margin: auto;
   line-height: 43px;
-  font-style: bold;
   color: #2c2c2c;
 }
 
@@ -482,10 +482,6 @@
 }
 
 /* /// FOOTER /// */
-
-.footer {
-  width: auto;
-}
 
 .container-footer {
   height: 493px;
